@@ -23,3 +23,75 @@ h1{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+p {
+    padding-left: 20px;
+}
+
+form input[type="text"]{
+    width: 90px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#total {
+    font-size: 14px;
+    color: black;
+    background: lightgray;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+
+#total:focus {
+    background: ligthg;
+    border: 3px solid darkblue;
+    outline: none;
+}
+
+#peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: black;
+    background-color: lightgray;
+    font-size: 14px;
+}
+
+#serviceQual{
+    padding: 6px 8px;
+    margin-left: 20px;
+    background:wheat;
+}
+
+button {    
+    margin: 30px auto;
+    background: teal;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    display: block;
+}
+
+button:hover {
+    background: turquoise;
+}
+
+button:active {
+    background: lightcoral;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    background: thistle;
+}
+
+
+
+
+
