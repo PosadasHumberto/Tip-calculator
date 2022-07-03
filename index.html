@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculateur de pourboire</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Calculateur de pourboire</h1>
+        <div id="calculator">
+            <form>
+                <p>Quel est le total de votre consommation ? </p>
+                € <input id="total" type="text" placeholder="Addition">
+
+                <p>Alors, le service ? </p>
+                <select title="choice" id="serviceQual">
+                    <option disabled selected value="0">-- Choisir une option --</option>
+                    <option value="0.3">Trés bon</option>
+                    <option value="0.2">Bon</option>
+                    <option value="0.15">Sans plus</option>
+                    <option value="0.1">Mauvais</option>
+                    <option value="0.05">Horrible</option>
+                </select>
+            </form>
+            <p>Combien de personnes vont partager l'addition?</p>
+            <input id="peopleamt" type="text" placeholder="Nombre de personnes"> personnes
+            <button type="button" id="calculate">Calculer!</button>
+        </div>
+        <div id="totalTip">
+            <sup>€</sup><span id="tip">0.00</span>
+            <small id="each">Par personne</small>
+        </div>
+    </div>
+    <script src="./logic.js"></script>
+</body>
+</html>
